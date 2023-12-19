@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZFilesUtils", "ZFilesUtils\ZFilesUtils.csproj", "{0B134756-A6A0-4457-A0CE-AF89A06E8F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZFilesTest", "ZFilesTest\ZFilesTest.csproj", "{8A3098B4-BB80-4DF7-91A4-79D3882122B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B134756-A6A0-4457-A0CE-AF89A06E8F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B134756-A6A0-4457-A0CE-AF89A06E8F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B134756-A6A0-4457-A0CE-AF89A06E8F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B134756-A6A0-4457-A0CE-AF89A06E8F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3098B4-BB80-4DF7-91A4-79D3882122B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3098B4-BB80-4DF7-91A4-79D3882122B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3098B4-BB80-4DF7-91A4-79D3882122B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3098B4-BB80-4DF7-91A4-79D3882122B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {410A404A-4BE1-467B-860E-6E52142D9FE1}
+	EndGlobalSection
+EndGlobal
