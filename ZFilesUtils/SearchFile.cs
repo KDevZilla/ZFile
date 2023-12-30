@@ -10,7 +10,7 @@ namespace ZFilesUtils
     {
         //public List<String> 
         public List<String> SearchByPattern(String path, String pattern)
-            => Directory.EnumerateFiles(path, pattern).ToList();
+            => Directory.EnumerateFiles(path, pattern, SearchOption.AllDirectories).ToList();
         
         public SearchFileResult  SearchListOfFiles(List<String> listofFileToSearch)
             =>  new SearchFileResult(listofFileToSearch
